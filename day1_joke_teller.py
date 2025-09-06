@@ -2,7 +2,7 @@
 '''
 • module
 • comment
-• input
+• input function 
 • variables
 
 '''
@@ -28,4 +28,5 @@ print(joke)
 
 egnine = pyttsx3.init()                                                         # pyttsx3 module (External) 
 egnine.say(joke)
+
 egnine.runAndWait()
